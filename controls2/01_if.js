@@ -51,3 +51,79 @@ console.log("great")
 } else {
     console.log("I don't known that rating")
 }
+
+
+
+
+
+// login system 
+// const email = ""
+
+// if email is present ask for password otherwise ask for email
+/*
+if (email == "rakesh@google.com"){
+    console.log("please enter your password");
+} else {
+    console.log("please enter your email");
+}
+*/
+
+// if (email != "") {
+//     console.log("please enter your password");
+// } else {
+//     console.log("please enter your email");
+// }
+
+console.log(Boolean(email));
+
+
+// truthy falsy 
+
+// falsy value 
+
+/*false 
+0    (-0 and BigInt on)
+""
+null
+undefined
+NaN
+*/
+
+
+
+// If user provides email, password, then allow to login, else ask for it
+
+const email = ""
+const password = ""
+
+if (email){
+    if (password){
+        console.log("Welcome to the app");
+    } else{
+        console.log("please enter your password");
+    }
+} else {
+    console.log("please enter your email");
+}
+
+
+// Logical operation 
+// && -> and ; || => OR
+
+if (email and password) {
+    console.log("well come to the app");
+} else{
+    console.log("please enter your email and password");
+}
+
+
+// allow user to signin with google or github
+
+const googleLoginToken = ""
+const githubLoginToken = ""
+
+if (googleLoginToken || githubLoginToken) {
+    console.log("welcome to the app");
+}else {
+    console.log("please login view your account");
+}
