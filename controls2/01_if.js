@@ -110,7 +110,7 @@ if (email){
 // Logical operation 
 // && -> and ; || => OR
 
-if (email and password) {
+if (email && password) {
     console.log("well come to the app");
 } else{
     console.log("please enter your email and password");
@@ -127,3 +127,29 @@ if (googleLoginToken || githubLoginToken) {
 }else {
     console.log("please login view your account");
 }
+
+
+let age = 18
+const willYougetDrivingLicense = false
+
+if (age >=18){
+    console.log("You will get driving license");
+    willYougetDrivingLicense = true
+} else{
+    console.log("You are not eligible for driving license");
+    willYougetDrivingLicense = false
+}
+
+// same in turnaring operators or shorthands like be 
+const getDrivingLicense = age >= 18 ? "true part" : "false"
+
+
+let loading = false
+if (loading){
+    return "loading..."
+}
+
+console.log("Show the cards to user")
+
+// same in turnaring operators or shorthands like be 
+loading ? "show loading spinner" : "show card to user"
